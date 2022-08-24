@@ -1,0 +1,973 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*********** title section start ***********/
+.title-section{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-bottom:50px;
+}
+.title-section .title{
+    position: relative;
+    font-size: 24px;
+    line-height: 26px;
+    color: #444;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.title-section .title::before{
+    content: '';
+    position: absolute;
+    height:3px;
+    width:70px;
+    bottom:0;
+    background-color: #444;
+    left:47%;  
+}
+.container{
+    width:1170px;
+  }
+/*********** title section End ***********/
+
+
+/*********** Team-1 Start ***********/
+.team-1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;;
+}
+.team-1 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+}
+.team-1 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-1 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-1 .team-item .team-item-photo:hover img{
+    transform: scale(1.1);
+}
+.team-1 .team-item .team-item-social{
+    background: #3498db;
+    color:#fff;
+    text-align: center;
+    padding:6px 2px;
+    position: absolute;
+    right:16%;
+    width:70%;
+    bottom:112px;
+}
+.team-1 .team-item .team-item-social::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    left: -39px;
+    width: 50px;
+    background: #3498db;
+    top: 19px;
+}
+.team-1 .team-item .team-item-social::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    right: -39px;
+    width: 50px;
+    background: #3498db;
+    top: 19px;
+}
+.team-1 .team-item .team-item-social a{
+    text-decoration: none;
+    color:#fff;
+    position: relative;
+}
+.team-1 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+}
+.team-1 .team-item .team-item-social svg:hover{
+    transform: scale(1.2);
+} 
+.team-1 .team-item .team-item-info{
+    float: left;
+    width:100%;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+.team-1 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #252525;
+    margin-bottom:3px;
+}
+.team-1 .team-item .team-item-info .role{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-1 End ***********/
+
+
+/*********** Team-2 Start***********/
+.team-2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.team-2 .team-item{
+    position: relative;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+}
+.team-2 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-2 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-2 .team-item .team-item-photo:hover img{
+    transform: scale(1.1);
+}
+.team-2 .team-item .team-item-social{
+    background: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 6px 2px;
+    position: absolute;
+    left:-7px;
+    width: 16%;
+    bottom: -124px;
+    text-align: center;
+}
+.team-2 .team-item .team-item-social::before{
+    content: '';
+    position: absolute;
+    border-right-color: #3498db !important;
+    left: -7px;
+    bottom: -7px;
+    border: 7px solid transparent;
+}
+.team-2 .team-item .team-item-social a{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    position: relative;
+}
+.team-2 .team-item .team-item-social svg{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.team-2 .team-item .team-item-social svg:hover{
+    transform: scale(1.2);
+} 
+.team-2 .team-item .team-item-info{
+    float: left;
+    width:100%;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: #fff;
+
+}
+.team-2 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #252525;
+    padding-bottom: 7px;
+    position: relative;
+}
+.team-2 .team-item .team-item-info .Name::before{
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 1px;
+    background: #3498db;
+    top: 27px;
+    right: 43%;
+}
+.team-2 .team-item .team-item-info .role{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-2 End***********/
+
+
+/*********** Team-3 Start***********/
+.team-3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;;
+}
+.team-3 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+}
+.team-3 .team-item:hover{
+    transform: translateY(-10px);
+}
+.team-3 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-3 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-3 .team-item .team-item-social{
+    background: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 6px 2px;
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    bottom: 92px;
+    display: flex;
+    justify-content: center;
+}
+.team-3 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    color:#fff;
+    position: relative;
+    width:28px;
+    height:28px;
+    margin-right: 5px;
+    margin-left:5px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.38);
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+}
+.team-3 .team-item .team-item-social a:hover{
+    background-color: #fff !important;
+}
+.team-3 .team-item .team-item-social a:hover svg{
+    color:#444;
+}
+.team-3 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+}
+.team-3 .team-item .team-item-info{
+    float: left;
+    width:100%;
+    padding: 25px 0px;
+    text-align: center;
+
+}
+.team-3 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #252525;
+    margin-bottom:3px;
+}
+.team-3 .team-item .team-item-info .role{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-3 End***********/
+
+
+/*********** Team-4 Start***********/
+.team-4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.team-4 .team-item{
+    overflow: hidden;
+    width:100%;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+    outline-style: none;
+    border-style:none;
+}
+.team-4 .team-item:hover{
+    width:100%;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    outline-style: none;
+    border-style:none;
+}
+.team-4 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-4 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transition: all .3s;
+}
+.team-4 .team-item .team-item-social{
+    color: #fff;
+    text-align: center;
+    padding: 13px 2px;
+    display: flex;
+    justify-content: center;
+}
+.team-4 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    background: #fff;
+    width:28px;
+    height:28px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 0%;
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+    border:1px solid #3498db;
+}
+.team-4 .team-item .team-item-social a:hover{
+    border:1px solid transparent;
+    background-color: #3498db;
+    color:#fff;
+    box-shadow: none;
+    outline-style: none;
+}
+.team-4 .team-item .team-item-social a span{
+    float: left;
+    width:28px;
+    height: 28px;
+    text-align: center;
+    line-height: 24px;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline-style: none;
+}
+.team-4 .team-item .team-item-social a span svg{
+    font-size: 15px;
+}
+.team-4 .team-item .team-item-info{
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background: #3498db;
+    color:#fff;
+}
+.team-4 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color:#fff;
+    margin-bottom:3px;
+}
+.team-4 .team-item .team-item-info .role{
+    font-size: 12px;
+    color:#fff;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-4 End***********/
+
+
+/*********** Team-5 Start***********/
+.team-5{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;;
+}
+.team-5 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+}
+.team-5 .team-item:hover{
+    transform: translateY(-10px);
+}
+.team-5 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-5 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-5 .team-item .team-item-social{
+    color: #fff;
+    text-align: center;
+    padding: 13px 2px;
+    display: flex;
+    justify-content: center;
+}
+.team-5 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    background: #fff;
+    position: relative;
+    width:28px;
+    height:28px;
+    margin-right: 5px;
+    margin-left:5px;
+    border-radius: 50%;
+    border-right: 2px solid rgba(0,0,0,.18);
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+}
+.team-5 .team-item .team-item-social a:hover{
+    background-color: #3498db;
+    color:#fff;
+}
+.team-5 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+}
+.team-5 .team-item .team-item-info{
+    float: left;
+    width: 100%;
+    padding: 7px 0px;
+    text-align: center;
+    position: absolute;
+    top: 206px;
+    background: #fff;
+}
+.team-5 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #252525;
+    margin-bottom:3px;
+}
+.team-5 .team-item .team-item-info .role{
+    font-size: 12px;
+    color:#fff;
+    display: block;
+    font-family: montserrat,sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #818181;
+}
+/*********** Team-5 End***********/
+
+
+/*********** Team-6 Start***********/
+.team-6{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.team-6 .team-item{
+    overflow:hidden;
+    position: relative;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+}
+.team-6 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-6 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-6 .team-item .team-item-photo:hover img{
+    transform: scale(1.1);
+}
+.team-6 .team-item .team-item-social{
+    color: #fff;
+    text-align: center;
+    padding: 6px 0px;
+    position: absolute;
+    right:0;
+    width: 9%;
+    top:-4px;
+    text-align: center;
+}
+.team-6 .team-item .team-item-social a{
+    text-decoration: none;
+    color:#3498db;
+    display: block;
+    margin-bottom:4px;
+    transition-delay: 0s;
+    background-color: transparent;
+    background: rgba(255,255,255,.15);
+}
+.team-6 .team-item .team-item-social a:nth-child(1){
+    top: 5px;
+    right: -25px;
+    position: absolute;
+    transition: all 0.1s;
+    transition-delay: .1s;
+    padding: 1px 6px;
+}
+.team-6 .team-item:hover .team-item-social a:nth-child(1){
+    right: 0;
+}
+.team-6 .team-item .team-item-social a:nth-child(2){
+    top: 41px;
+    right: -25px;
+    position: absolute;
+    transition: all 0.1s;
+    transition-delay: .2s;
+    padding: 1px 4px;
+}
+.team-6 .team-item:hover .team-item-social a:nth-child(2){
+    right: 0;
+}
+.team-6 .team-item .team-item-social a:nth-child(3){
+    top: 81px;
+    right: -25px;
+    position: absolute;
+    transition:all 0.1s;
+    transition-delay: .3s;
+    padding: 0px 9px;
+}
+.team-6 .team-item:hover .team-item-social a:nth-child(3){
+    right: 0;
+}
+.team-6 .team-item .team-item-social a:nth-child(4){
+    top: 117px;
+    right: -25px;
+    position: absolute;
+    transition: all 0.1s;
+    transition-delay: .4s;
+    padding: 0px 7px;
+}
+.team-6 .team-item:hover .team-item-social a:nth-child(4){
+    right: 0;
+}
+.team-6 .team-item .team-item-social a:hover{
+    background-color: #3498db;
+    color:#fff;
+}
+.team-6 .team-item .team-item-social svg{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.team-6 .team-item .team-item-info{
+    float: left;
+    width:100%;
+    padding: 25px 0px;
+    text-align: center;
+    background-color: #fff;
+}
+.team-6 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #252525;
+    margin-bottom:3px;
+}
+.team-6 .team-item .team-item-info .role{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-6 End***********/
+
+
+/*********** Team-7 Start***********/
+.team-7{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;;
+}
+.team-7 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+}
+.team-7 .team-item:hover{
+    transform: translateY(-10px);
+}
+.team-7 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-7 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-7 .team-item .team-item-social{
+    color: #fff;
+    text-align: center;
+    padding: 13px 2px;
+    display: flex;
+    justify-content: center;
+    padding-bottom:20px;
+}
+.team-7 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    position: relative;
+    width:28px;
+    height:28px;
+    margin-right: 5px;
+    margin-left:5px;
+    border-radius: 0%;
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+    background: #dedada !important;
+}
+.team-7 .team-item .team-item-social a:hover{
+    background-color: #3498db !important;
+    color:#fff;
+}
+.team-7 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+}
+.team-7 .team-item .team-item-info{
+    float: left;
+    width: 100%;
+    padding-top:10px;
+    text-align: center;
+}
+.team-7 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #3498db;
+    margin-bottom:3px;
+}
+.team-7 .team-item .team-item-info .role{
+    font-size: 12px;
+    color:#999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-7 End***********/
+
+
+/*********** Team-8 Start***********/
+.team-8{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.team-8 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+}
+.team-8 .team-item:hover{
+    transform: translateY(-10px);
+}
+.team-8 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-8 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-8 .team-item .team-item-social{
+    float: left;
+    width: 85%;
+    position: absolute;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 8px 2px;
+    display: flex;
+    justify-content: center;
+    right: 20px;
+    bottom: 13px;
+}
+.team-8 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    background: #fff;
+    position: relative;
+    width:28px;
+    height:28px;
+    margin-right: 5px;
+    margin-left:5px;
+    border-radius: 0%;
+    border: 1px solid rgba(255,255,255,.38);
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+    border:1px solid #3498db;
+}
+.team-8 .team-item .team-item-social a:hover{
+    background-color: #3498db;
+    color:#fff;
+}
+.team-8 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+}
+.team-8 .team-item .team-item-info{
+    float: left;
+    width: 85%;
+    padding: 10px 0px;
+    text-align: center;
+    position: absolute;
+    top: 151px;
+    background: #3498db;
+    color: #fff;
+    right: 20px;
+}
+.team-8 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color:#fff;
+    margin-bottom:3px;
+}
+.team-8 .team-item .team-item-info .role{
+    font-size: 12px;
+    color:#fff;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-8 End***********/
+
+
+/*********** Team-3 Start***********/
+.team-9{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+}
+.team-9 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+}
+.team-9 .team-item:hover{
+    transform: translateY(-10px);
+}
+.team-9 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-9 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-9 .team-item:hover .team-item-photo img{
+    opacity: 0.5;
+}
+.team-9 .team-item .team-item-social{
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+    padding: 6px 2px;
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    bottom: 92px;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+}
+.team-9 .team-item:hover .team-item-social{
+    visibility: visible;
+}
+.team-9 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    color:#fff;
+    background-color: transparent;
+    position: relative;
+    width:28px;
+    height:28px;
+    margin-right: 5px;
+    margin-left:5px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.38);
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+    border-right-color: #3498db;
+    border-bottom-color: #3498db;
+}
+.team-9 .team-item .team-item-social a:hover{
+    border-left-color: #3498db;
+    border-top-color: #3498db;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.team-9 .team-item .team-item-social a:hover svg{
+    color:#3498db; 
+}
+.team-9 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+    color:#3498db;
+}
+.team-9 .team-item .team-item-info{
+    float: left;
+    width:100%;
+    padding: 25px 0px;
+    text-align: center;
+}
+.team-9 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color: #252525;
+    margin-bottom:3px;
+}
+.team-9 .team-item .team-item-info .role{
+    font-size: 12px;
+    color: #999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-3 End***********/
+
+
+/*********** Team-10 Start***********/
+.team-10{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+.team-10 .team-item{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,.08);
+    transition: all 0.2s;
+}
+.team-10 .team-item:hover{
+    transform: translateY(-10px);
+}
+.team-10 .team-item .team-item-photo{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.team-10 .team-item .team-item-photo img{
+    float: left;
+    width: 100%;
+    transform: scale(1);
+    transition: all .3s;
+}
+.team-10 .team-item .team-item-social{
+    float: left;
+    width: 85%;
+    position: absolute;
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+    padding: 12px 2px;
+    display: flex;
+    justify-content: center;
+    right: 20px;
+    bottom: 84px;
+    box-shadow: 0 2px 5px -2px rgba(68,68,68,.29);
+    z-index: 11;
+    border-radius: 4px;
+}
+.team-10 .team-item .team-item-social a{
+    float: left;
+    text-decoration: none;
+    background: #fff;
+    position: relative;
+    width:28px;
+    height:28px;
+    margin-right: 5px;
+    margin-left:5px;
+    border-radius: 0%;
+    border: 1px solid rgba(255,255,255,.38);
+    line-height: 24px;
+    transition: all 0.2s;
+    transition-duration: 0.5s;
+    border:1px solid #3498db;
+    border-radius: 3px;
+}
+.team-10 .team-item .team-item-social a:hover{
+    background-color: #3498db;
+    color:#fff;
+}
+.team-10 .team-item .team-item-social svg{
+    font-size: 15px;
+    margin-right:7px;
+    margin-left:7px;
+}
+.team-10 .team-item .team-item-info{
+    float: left;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: #fff;
+    color: #fff;
+}
+.team-10 .team-item .team-item-info .Name{
+    font-size: 18px;
+    margin: 0;
+    font-family: montserrat,sans-serif;
+    color:#444;
+    margin-bottom:3px;
+}
+.team-10 .team-item .team-item-info .role{
+    font-size: 12px;
+    color:#999;
+    display: block;
+    font-family: montserrat,sans-serif;
+}
+/*********** Team-10 End***********/
